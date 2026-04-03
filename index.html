@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routine | Web Dev & Fitness</title>
+    <meta name="description"
+        content="A disciplined daily routine for a student focused on web development and fitness.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div class="background-decor">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>Daily Routine</h1>
+                <p class="subtitle">Focus: Web Development & Fitness</p>
+                <div class="quote-box">
+                    <i class="ph-fill ph-quotes"></i>
+                    <p>"Discipline beats motivation. Show up every day — even when you don’t feel like it. That’s where
+                        real growth happens."</p>
+                </div>
+                <div class="goals">
+                    <h2>Goals</h2>
+                    <ul>
+                        <li><i class="ph ph-code"></i> Improve frontend development skills</li>
+                        <li><i class="ph ph-barbell"></i> Stay consistent with gym</li>
+                        <li><i class="ph ph-trend-up"></i> Build strong daily discipline</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="current-time-widget" id="time-widget">
+                <span id="current-time">--:-- --</span>
+                <span id="current-date">-- --, ----</span>
+            </div>
+        </header>
+
+        <div class="timeline" id="timeline">
+            <!-- Timeline items will be injected by JavaScript -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
